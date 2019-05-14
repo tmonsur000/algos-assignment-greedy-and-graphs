@@ -152,5 +152,9 @@ public class PhysicsExperiment {
     // Experiment 3: Another test case, 5 students, 11 steps
     int[][] signUpsExperiment3 = {{7, 10, 11}, {8, 9, 10}, {2, 3, 4, 5, 7}, {1, 5, 6, 7, 8}, {1, 3, 4, 8}};
     pe.makeExperimentAndSchedule(3, 5, 11, signUpsExperiment3);
+    
+    //Extra experiment, 7 students, 15 steps
+    int[][] signUpsExperiment4={{1, 2, 3, 5, 6}, {3,4,5,6,9,13,14,15}, {1,2,4,5,6,7,10,11,12}, {1,2,3,4,7,8,9,10,11}, {1,2, 12,13,14,15}, {6,7,8,9,10,15}, {10,11,12}};
+    pe.makeExperimentAndSchedule(4, 7, 15, signUpsExperiment4);
   }
 }
